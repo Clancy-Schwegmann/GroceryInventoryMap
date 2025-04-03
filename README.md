@@ -12,7 +12,11 @@
 > Find Items - Web page that contains a search bar allowing users to search for products and see which aisle contains them.
 >
 > To use the search tool simply click on it and search for a food item like bread for example, and then click one of the names that pops up. Afterwards the website will scroll to the map, and the location of the item will be shown to the user.
-> 
-> Website created with [WordPress](https://wordpress.com) and hosted on [Hostinger](https://www.hostinger.com)
+>
+
+# Credits
+
+> Website was created with [WordPress](https://wordpress.com) and hosted on [Hostinger](https://www.hostinger.com)
 >
 > Web designs (including the map itself) were made using [Figma](https://www.figma.com)
+> 
