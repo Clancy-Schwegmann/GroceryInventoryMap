@@ -13,6 +13,8 @@
 >
 > To use the search tool simply click on it and search for a food item like bread for example, and then click one of the names that pops up. Afterwards the website will scroll to the map, and the location of the item will be shown to the user.
 >
+> Services - Page that has detailed information about the additional services provided by the store including: customer service, pharmacy, billing, etc.
+>
 
 # Credits
 
