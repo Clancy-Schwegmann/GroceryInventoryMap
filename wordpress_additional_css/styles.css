@@ -1,0 +1,165 @@
+/*
+Additional CSS for astra child theme - edited in the theme customizer on WordPress
+*/
+
+
+#search-bar {
+  text-align:center;
+  width: 100%;
+  padding: 10px 40px 10px 15px;
+  font-size: 16px;
+  border: 3px solid #000000;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.search-icon {
+  position: absolute;
+  right: 20px;
+  top: 22%;
+}
+
+.search-area {
+  position: relative;
+  width: 100%; 
+}
+
+.search-results
+{
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: none;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+.no-results {
+  padding: 10px;
+  color: black;
+  text-align: center;
+}
+
+/*container used for storing search items, should be placed in front of other elements.*/
+.dropdown-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.dropdown-item {
+  width: 80%;
+  margin:auto;
+  text-align: center;
+  background: white;
+  padding: 10px;
+  cursor: pointer;
+  color: black;
+  font-size: 16px;
+  border: 3px solid black;
+}
+
+.dropdown-item:hover {
+  background: lightgray;
+}
+
+/* animations for the fly-in effects. */
+
+@keyframes FlyInRight {
+0% {
+  opacity: 0;
+  transform: translateX(-25%);
+}
+100% {
+  opacity: 1;
+  transform: translateX(0);
+}
+}
+
+@keyframes FlyOutRight {
+0% {
+  opacity: 1;
+  transform: translateX(0);
+}
+100% {
+  opacity: 0;
+  transform: translateX(-25%);
+}
+}
+
+.fly-in-right.visible {
+animation: FlyInRight 0.5s ease-out forwards;
+}
+
+.fly-in-right.hidden {
+animation: FlyOutRight 0.5s ease-out forwards;
+}
+
+@keyframes FlyInLeft {
+0% {
+  opacity: 0;
+  transform: translateX(25%);
+}
+100% {
+  opacity: 1;
+  transform: translateX(0);
+}
+}
+
+@keyframes FlyOutLeft {
+0% {
+  opacity: 1;
+  transform: translateX(0);
+}
+100% {
+  opacity: 0;
+  transform: translateX(25%);
+}
+}
+
+
+.fly-in-left,
+.fly-in-right {
+transform:translateX(0);
+overflow-x: visible;
+opacity: 0;
+transition: opacity 0.5s ease-out;
+will-change: transform, opacity;
+}
+
+
+.fly-in-left.visible {
+animation: FlyInLeft 0.5s ease-out forwards;
+}
+
+.fly-in-left.hidden {
+animation: FlyOutLeft 0.5s ease-out forwards;
+}
+
+/*navigation bar settings for mobile devices.*/
+
+@media (max-width: 768px) {
+.navigation-bar{
+  background-color:black !important;
+  position: sticky;
+  top: 0;
+  z-index: 10000;
+}
+}
+
+/*make sure mobile slideshow is easier to read.*/
+
+@media (max-width: 768px) {
+.metaslider .caption {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+}
