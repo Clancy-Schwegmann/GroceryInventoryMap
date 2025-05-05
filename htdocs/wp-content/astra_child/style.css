@@ -1,0 +1,19 @@
+/*
+Theme Name: Astra Child
+Description: Child theme used to add additional features like live-search to astra.
+Template: astra
+*/
+
+#search-bar {
+  width: 100%;
+  padding: 10px 40px 10px 15px;
+  font-size: 16px;
+  border: 3px solid #000000;
+  border-radius: 25px;
+}
+
+.search-icon {
+  position: absolute;
+  right: 20px; /* offset from the right side of the search bar */
+  top: 22%;
+}
