@@ -1,7 +1,13 @@
 # How to access website
 
 > Website Link: [MyGroceryMap](https://mygrocerymap.net)
->
+> 
+
+
+# How to access program files
+> The customized scripts made for this website can be found in the following directory: /htdocs/wp-content/astra_child/
+> Additional css and html written for the website can be found in the folders named as such.
+
 
 # Website details
 
